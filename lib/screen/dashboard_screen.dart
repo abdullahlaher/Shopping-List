@@ -27,7 +27,7 @@ class MyWidget extends StatelessWidget {
   }
 }
 
-class Counter {
+class AssetsForScreen {
   int value = 0;
 
   void increment() => value++;

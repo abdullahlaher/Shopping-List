@@ -3,24 +3,40 @@ import 'package:test/test.dart';
 
 void main() {
   group('Counter', () {
-    test('value should start at 0', () {
-      expect(Counter().value, 0);
+    test('value before loading assets', () {
+      expect(AssetsForScreen().value, 0);
     });
 
-    test('value should be incremented', () {
-      final counter = Counter();
+    test('value should be incremented after laoding 1 assset', () {
+      final counter = AssetsForScreen();
 
       counter.increment();
 
       expect(counter.value, 1);
     });
 
-    test('value should be decremented', () {
-      final counter = Counter();
+    test('when error', () {
+      final counter = AssetsForScreen();
 
       counter.decrement();
 
       expect(counter.value, -1);
     });
+  });
+
+  test('value should be incremented after laoding 1 assset', () {
+    final counter = AssetsForScreen();
+
+    counter.increment();
+
+    expect(counter.value, 1);
+  });
+
+  test('value should be incremented after laoding 1 assset', () {
+    final counter = AssetsForScreen();
+
+    counter.increment();
+
+    expect(counter.value, 1);
   });
 }
