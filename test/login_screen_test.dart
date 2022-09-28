@@ -1,4 +1,4 @@
-import 'package:shopping_list/screen/home_screen.dart';
+import 'package:shopping_list/screen/login_screen.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {
