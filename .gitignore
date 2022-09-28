@@ -38,6 +38,15 @@ registration_screen.dart
 body_layout.dart
 family_model.dart
 user_model.dart
+Shopping-List\lib\classes
+Shopping-List\lib\model
+Shopping-List\lib\queries
+Shopping-List\lib\reusable_widgets
+Shopping-List\lib\screens
+Shopping-List\lib\utils
+Shopping-List\lib\global.dart
+Shopping-List\lib\custom_icons_icons.dart
+Shopping-List\lib\main.dart
 
 # Web related
 lib/generated_plugin_registrant.dart
